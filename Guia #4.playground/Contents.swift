@@ -96,7 +96,7 @@ class Circulo {
 let myCirculo =  Circulo()
 myCirculo.radio = 10
 
-print("El area del circulo es: \(myCirculo.area) cm^2")
+print("El area del circulo es: \(String(format: "%.2f", myCirculo.area)) cm^2")
 
 /*Ejercicio 2: Crea una struct Rectangulo con propiedades ancho y alto. Implementa
 una propiedad calculada perimetro con getter y setter.*/
@@ -125,11 +125,8 @@ struct nuevoRectangulo {
  utilízalo para ordenar un array dado.*/
 
 let closure = { (a: Int, b: Int ) -> Bool in
-    if a > b {// devolver true or false dependiendo como sean a o B.
-        return true
-    } else {
-        return false
-    }
+    return a > b // devolver true or false dependiendo como sean a o B.
+        
 }
 var array = [2, 3, 1, 4, 5]
 array.sort(by: closure) // ordenar los numeros del array
