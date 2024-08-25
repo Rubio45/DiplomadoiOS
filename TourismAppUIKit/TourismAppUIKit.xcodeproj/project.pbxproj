@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1259C4D22C7BCAAB0065CBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */; };
+		1259C4D42C7BCAAB0065CBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */; };
+		1259C4DB2C7BCAAD0065CBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1259C4DA2C7BCAAD0065CBE5 /* Assets.xcassets */; };
+		1259C4DE2C7BCAAD0065CBE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1259C4DD2C7BCAAD0065CBE5 /* Base */; };
+		1259C4E62C7BCB0D0065CBE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4E52C7BCB0D0065CBE5 /* LoginViewController.swift */; };
+		1259C4EC2C7BCD970065CBE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4EB2C7BCD970065CBE5 /* Color.swift */; };
+		1259C4EF2C7BCE2F0065CBE5 /* BuildHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4EE2C7BCE2F0065CBE5 /* BuildHelper.swift */; };
+		1259C4F32C7BD95D0065CBE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */; };
+		1259C4F62C7BDA880065CBE5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F52C7BDA880065CBE5 /* OnboardingViewController.swift */; };
+		1259C4F82C7BDAA80065CBE5 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1259C4CE2C7BCAAB0065CBE5 /* TourismAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourismAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1259C4DA2C7BCAAD0065CBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1259C4DD2C7BCAAD0065CBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1259C4DF2C7BCAAD0065CBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1259C4E52C7BCB0D0065CBE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1259C4EB2C7BCD970065CBE5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1259C4EE2C7BCE2F0065CBE5 /* BuildHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildHelper.swift; sourceTree = "<group>"; };
+		1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1259C4F52C7BDA880065CBE5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1259C4CB2C7BCAAB0065CBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1259C4C52C7BCAAB0065CBE5 = {
+			isa = PBXGroup;
+			children = (
+				1259C4D02C7BCAAB0065CBE5 /* TourismAppUIKit */,
+				1259C4CF2C7BCAAB0065CBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1259C4CF2C7BCAAB0065CBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4CE2C7BCAAB0065CBE5 /* TourismAppUIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1259C4D02C7BCAAB0065CBE5 /* TourismAppUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4ED2C7BCE130065CBE5 /* Components */,
+				1259C4F42C7BDA730065CBE5 /* Onboarding */,
+				1259C4F12C7BD9330065CBE5 /* HomeView */,
+				1259C4EA2C7BCD8B0065CBE5 /* Extension */,
+				1259C4E92C7BCB460065CBE5 /* AppSettings */,
+				1259C4E82C7BCB3D0065CBE5 /* Models */,
+				1259C4E72C7BCB120065CBE5 /* Login */,
+				1259C4DA2C7BCAAD0065CBE5 /* Assets.xcassets */,
+				1259C4DC2C7BCAAD0065CBE5 /* LaunchScreen.storyboard */,
+				1259C4DF2C7BCAAD0065CBE5 /* Info.plist */,
+			);
+			path = TourismAppUIKit;
+			sourceTree = "<group>";
+		};
+		1259C4E72C7BCB120065CBE5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4F02C7BCE3F0065CBE5 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1259C4E82C7BCB3D0065CBE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1259C4E92C7BCB460065CBE5 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */,
+				1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		1259C4EA2C7BCD8B0065CBE5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4EB2C7BCD970065CBE5 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1259C4ED2C7BCE130065CBE5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4EE2C7BCE2F0065CBE5 /* BuildHelper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1259C4F02C7BCE3F0065CBE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4E52C7BCB0D0065CBE5 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1259C4F12C7BD9330065CBE5 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		1259C4F42C7BDA730065CBE5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1259C4F52C7BDA880065CBE5 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1259C4CD2C7BCAAB0065CBE5 /* TourismAppUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1259C4E22C7BCAAD0065CBE5 /* Build configuration list for PBXNativeTarget "TourismAppUIKit" */;
+			buildPhases = (
+				1259C4CA2C7BCAAB0065CBE5 /* Sources */,
+				1259C4CB2C7BCAAB0065CBE5 /* Frameworks */,
+				1259C4CC2C7BCAAB0065CBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourismAppUIKit;
+			productName = TourismAppUIKit;
+			productReference = 1259C4CE2C7BCAAB0065CBE5 /* TourismAppUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1259C4C62C7BCAAB0065CBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1259C4CD2C7BCAAB0065CBE5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1259C4C92C7BCAAB0065CBE5 /* Build configuration list for PBXProject "TourismAppUIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1259C4C52C7BCAAB0065CBE5;
+			productRefGroup = 1259C4CF2C7BCAAB0065CBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1259C4CD2C7BCAAB0065CBE5 /* TourismAppUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1259C4CC2C7BCAAB0065CBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259C4DB2C7BCAAD0065CBE5 /* Assets.xcassets in Resources */,
+				1259C4DE2C7BCAAD0065CBE5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1259C4CA2C7BCAAB0065CBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259C4E62C7BCB0D0065CBE5 /* LoginViewController.swift in Sources */,
+				1259C4EF2C7BCE2F0065CBE5 /* BuildHelper.swift in Sources */,
+				1259C4EC2C7BCD970065CBE5 /* Color.swift in Sources */,
+				1259C4D22C7BCAAB0065CBE5 /* AppDelegate.swift in Sources */,
+				1259C4F82C7BDAA80065CBE5 /* OnboardingModel.swift in Sources */,
+				1259C4F62C7BDA880065CBE5 /* OnboardingViewController.swift in Sources */,
+				1259C4D42C7BCAAB0065CBE5 /* SceneDelegate.swift in Sources */,
+				1259C4F32C7BD95D0065CBE5 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1259C4DC2C7BCAAD0065CBE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1259C4DD2C7BCAAD0065CBE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1259C4E02C7BCAAD0065CBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1259C4E12C7BCAAD0065CBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1259C4E32C7BCAAD0065CBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TourismAppUIKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VisitNicaragua;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mango.TourismAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1259C4E42C7BCAAD0065CBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TourismAppUIKit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VisitNicaragua;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mango.TourismAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1259C4C92C7BCAAB0065CBE5 /* Build configuration list for PBXProject "TourismAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1259C4E02C7BCAAD0065CBE5 /* Debug */,
+				1259C4E12C7BCAAD0065CBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1259C4E22C7BCAAD0065CBE5 /* Build configuration list for PBXNativeTarget "TourismAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1259C4E32C7BCAAD0065CBE5 /* Debug */,
+				1259C4E42C7BCAAD0065CBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1259C4C62C7BCAAB0065CBE5 /* Project object */;
+}
