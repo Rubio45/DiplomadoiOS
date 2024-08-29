@@ -40,8 +40,9 @@ class LoginViewController: UIViewController {
         NSLayoutConstraint.activate([
             imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
-            imageView.widthAnchor.constraint(equalToConstant: 250),
-            imageView.heightAnchor.constraint(equalToConstant: 250)
+            // view.frame.height = 667 in iPhone SE.
+            imageView.widthAnchor.constraint(equalToConstant: view.frame.height >= 700 ? 250 : 150),
+            imageView.heightAnchor.constraint(equalToConstant: view.frame.height >= 700 ? 250 : 150)
         ])
         
         // Label Login

@@ -57,4 +57,20 @@ class BuildHelper {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }
+    
+    static func createScrollView() -> UIScrollView {
+        let scrollView = UIScrollView()
+        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        return scrollView
+    }
+    
+    static func createStackViewHorizontal() -> UIStackView {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.alignment = .center
+        stackView.spacing = 25
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        return stackView
+    }
 }
