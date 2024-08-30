@@ -11,7 +11,8 @@
 		124B34CD2C80375A005D1196 /* MainPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124B34CC2C80375A005D1196 /* MainPlacesView.swift */; };
 		124B34CF2C8050E5005D1196 /* RecommendedTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124B34CE2C8050E5005D1196 /* RecommendedTripsView.swift */; };
 		124B34D12C805131005D1196 /* RecommendedTripsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124B34D02C805131005D1196 /* RecommendedTripsModel.swift */; };
-		124B34D32C805781005D1196 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124B34D22C805781005D1196 /* HomeViewController.swift */; };
+		124D03102C81352F0009C3CA /* CitySectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D030F2C81352F0009C3CA /* CitySectionsView.swift */; };
+		124D03122C8135580009C3CA /* CitySectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D03112C8135580009C3CA /* CitySectionsModel.swift */; };
 		1259C4D22C7BCAAB0065CBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */; };
 		1259C4D42C7BCAAB0065CBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */; };
 		1259C4DB2C7BCAAD0065CBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1259C4DA2C7BCAAD0065CBE5 /* Assets.xcassets */; };
@@ -19,7 +20,7 @@
 		1259C4E62C7BCB0D0065CBE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4E52C7BCB0D0065CBE5 /* LoginViewController.swift */; };
 		1259C4EC2C7BCD970065CBE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4EB2C7BCD970065CBE5 /* Color.swift */; };
 		1259C4EF2C7BCE2F0065CBE5 /* BuildHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4EE2C7BCE2F0065CBE5 /* BuildHelper.swift */; };
-		1259C4F32C7BD95D0065CBE5 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F22C7BD95D0065CBE5 /* HomeContentView.swift */; };
+		1259C4F32C7BD95D0065CBE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */; };
 		1259C4F62C7BDA880065CBE5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F52C7BDA880065CBE5 /* OnboardingViewController.swift */; };
 		1259C4F82C7BDAA80065CBE5 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */; };
 		1286BD392C7DA3C3004F92A9 /* TourismCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286BD382C7DA3C3004F92A9 /* TourismCategory.swift */; };
@@ -31,7 +32,8 @@
 		124B34CC2C80375A005D1196 /* MainPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlacesView.swift; sourceTree = "<group>"; };
 		124B34CE2C8050E5005D1196 /* RecommendedTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripsView.swift; sourceTree = "<group>"; };
 		124B34D02C805131005D1196 /* RecommendedTripsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripsModel.swift; sourceTree = "<group>"; };
-		124B34D22C805781005D1196 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		124D030F2C81352F0009C3CA /* CitySectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySectionsView.swift; sourceTree = "<group>"; };
+		124D03112C8135580009C3CA /* CitySectionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySectionsModel.swift; sourceTree = "<group>"; };
 		1259C4CE2C7BCAAB0065CBE5 /* TourismAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourismAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +43,7 @@
 		1259C4E52C7BCB0D0065CBE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1259C4EB2C7BCD970065CBE5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		1259C4EE2C7BCE2F0065CBE5 /* BuildHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildHelper.swift; sourceTree = "<group>"; };
-		1259C4F22C7BD95D0065CBE5 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1259C4F52C7BDA880065CBE5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		1286BD382C7DA3C3004F92A9 /* TourismCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismCategory.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				1286BD382C7DA3C3004F92A9 /* TourismCategory.swift */,
 				124B34C92C8035AA005D1196 /* MainPlacesModel.swift */,
 				124B34D02C805131005D1196 /* RecommendedTripsModel.swift */,
+				124D03112C8135580009C3CA /* CitySectionsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				1286BD3A2C7DA67E004F92A9 /* TourismCategoryView.swift */,
 				124B34CC2C80375A005D1196 /* MainPlacesView.swift */,
 				124B34CE2C8050E5005D1196 /* RecommendedTripsView.swift */,
+				124D030F2C81352F0009C3CA /* CitySectionsView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -150,8 +154,7 @@
 		1259C4F12C7BD9330065CBE5 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				1259C4F22C7BD95D0065CBE5 /* HomeContentView.swift */,
-				124B34D22C805781005D1196 /* HomeViewController.swift */,
+				1259C4F22C7BD95D0065CBE5 /* HomeViewController.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -235,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1286BD3B2C7DA67E004F92A9 /* TourismCategoryView.swift in Sources */,
+				124D03102C81352F0009C3CA /* CitySectionsView.swift in Sources */,
 				1259C4E62C7BCB0D0065CBE5 /* LoginViewController.swift in Sources */,
 				1259C4EF2C7BCE2F0065CBE5 /* BuildHelper.swift in Sources */,
+				124D03122C8135580009C3CA /* CitySectionsModel.swift in Sources */,
 				1259C4EC2C7BCD970065CBE5 /* Color.swift in Sources */,
 				124B34D12C805131005D1196 /* RecommendedTripsModel.swift in Sources */,
 				124B34CA2C8035AA005D1196 /* MainPlacesModel.swift in Sources */,
@@ -247,8 +252,7 @@
 				1259C4F62C7BDA880065CBE5 /* OnboardingViewController.swift in Sources */,
 				1286BD392C7DA3C3004F92A9 /* TourismCategory.swift in Sources */,
 				1259C4D42C7BCAAB0065CBE5 /* SceneDelegate.swift in Sources */,
-				1259C4F32C7BD95D0065CBE5 /* HomeContentView.swift in Sources */,
-				124B34D32C805781005D1196 /* HomeViewController.swift in Sources */,
+				1259C4F32C7BD95D0065CBE5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,6 +49,7 @@ class RecommendedTripsView: UIView {
         let recommendedTripsTitle = BuildHelper.createTitleLabel(with: recommendedTrips.title)
         recommendedTripsTitle.font = UIFont.systemFont(ofSize: 14, weight: .bold)
         recommendedTripsTitle.textColor = .white
+        recommendedTripsTitle.numberOfLines = 2
         
         addSubview(recommendedTripsContainer)
         recommendedTripsContainer.addSubview(recommendedTripsImageView)
@@ -69,7 +70,7 @@ class RecommendedTripsView: UIView {
             recommendedTripsImageView.trailingAnchor.constraint(equalTo: recommendedTripsContainer.trailingAnchor),
             recommendedTripsImageView.bottomAnchor.constraint(equalTo: recommendedTripsContainer.bottomAnchor),
             
-            recommendedTripsTitle.bottomAnchor.constraint(equalTo: recommendedTripsContainer.bottomAnchor, constant: 20),
+            recommendedTripsTitle.bottomAnchor.constraint(equalTo: recommendedTripsContainer.bottomAnchor, constant: -10),
             recommendedTripsTitle.leadingAnchor.constraint(equalTo: recommendedTripsContainer.leadingAnchor, constant: 20),
             recommendedTripsTitle.trailingAnchor.constraint(equalTo: recommendedTripsContainer.trailingAnchor, constant: -20),
             
@@ -79,6 +80,7 @@ class RecommendedTripsView: UIView {
             favoriteButton.widthAnchor.constraint(equalToConstant: 30)
         
         ])
+        
     }
     
     @objc private func favoriteButtonTapped() {
