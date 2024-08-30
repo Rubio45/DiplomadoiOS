@@ -13,6 +13,8 @@
 		124B34D12C805131005D1196 /* RecommendedTripsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124B34D02C805131005D1196 /* RecommendedTripsModel.swift */; };
 		124D03102C81352F0009C3CA /* CitySectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D030F2C81352F0009C3CA /* CitySectionsView.swift */; };
 		124D03122C8135580009C3CA /* CitySectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D03112C8135580009C3CA /* CitySectionsModel.swift */; };
+		124D03142C81875B0009C3CA /* PlacesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D03132C81875B0009C3CA /* PlacesProtocol.swift */; };
+		124D03182C8187FA0009C3CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D03172C8187FA0009C3CA /* DetailViewController.swift */; };
 		1259C4D22C7BCAAB0065CBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */; };
 		1259C4D42C7BCAAB0065CBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */; };
 		1259C4DB2C7BCAAD0065CBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1259C4DA2C7BCAAD0065CBE5 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		124B34D02C805131005D1196 /* RecommendedTripsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTripsModel.swift; sourceTree = "<group>"; };
 		124D030F2C81352F0009C3CA /* CitySectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySectionsView.swift; sourceTree = "<group>"; };
 		124D03112C8135580009C3CA /* CitySectionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySectionsModel.swift; sourceTree = "<group>"; };
+		124D03132C81875B0009C3CA /* PlacesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesProtocol.swift; sourceTree = "<group>"; };
+		124D03172C8187FA0009C3CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1259C4CE2C7BCAAB0065CBE5 /* TourismAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourismAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1259C4D12C7BCAAB0065CBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1259C4D32C7BCAAB0065CBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		124D03162C8187D90009C3CA /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				124D03172C8187FA0009C3CA /* DetailViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 		1259C4C52C7BCAAB0065CBE5 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		1259C4D02C7BCAAB0065CBE5 /* TourismAppUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				124D03162C8187D90009C3CA /* DetailView */,
 				1259C4ED2C7BCE130065CBE5 /* Components */,
 				1259C4F42C7BDA730065CBE5 /* Onboarding */,
 				1259C4F12C7BD9330065CBE5 /* HomeView */,
@@ -106,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				1259C4F72C7BDAA80065CBE5 /* OnboardingModel.swift */,
+				124D03132C81875B0009C3CA /* PlacesProtocol.swift */,
 				1286BD382C7DA3C3004F92A9 /* TourismCategory.swift */,
 				124B34C92C8035AA005D1196 /* MainPlacesModel.swift */,
 				124B34D02C805131005D1196 /* RecommendedTripsModel.swift */,
@@ -240,11 +254,13 @@
 				1286BD3B2C7DA67E004F92A9 /* TourismCategoryView.swift in Sources */,
 				124D03102C81352F0009C3CA /* CitySectionsView.swift in Sources */,
 				1259C4E62C7BCB0D0065CBE5 /* LoginViewController.swift in Sources */,
+				124D03142C81875B0009C3CA /* PlacesProtocol.swift in Sources */,
 				1259C4EF2C7BCE2F0065CBE5 /* BuildHelper.swift in Sources */,
 				124D03122C8135580009C3CA /* CitySectionsModel.swift in Sources */,
 				1259C4EC2C7BCD970065CBE5 /* Color.swift in Sources */,
 				124B34D12C805131005D1196 /* RecommendedTripsModel.swift in Sources */,
 				124B34CA2C8035AA005D1196 /* MainPlacesModel.swift in Sources */,
+				124D03182C8187FA0009C3CA /* DetailViewController.swift in Sources */,
 				1259C4D22C7BCAAB0065CBE5 /* AppDelegate.swift in Sources */,
 				124B34CF2C8050E5005D1196 /* RecommendedTripsView.swift in Sources */,
 				1259C4F82C7BDAA80065CBE5 /* OnboardingModel.swift in Sources */,

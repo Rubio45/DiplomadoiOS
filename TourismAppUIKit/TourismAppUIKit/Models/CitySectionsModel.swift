@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct CitySectionsModel {
-    let title: String
-    let image: String
-    let subtitle: String
-    let description: String
+struct CitySectionsModel: PlacesProtocol {
+    var title: String
+    var image: String
+    var subtitle: String
+    var description: String
 }
 
 let citySections: [CitySectionsModel] = [

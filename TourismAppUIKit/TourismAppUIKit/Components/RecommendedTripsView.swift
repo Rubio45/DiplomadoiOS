@@ -85,7 +85,7 @@ class RecommendedTripsView: UIView {
     
     @objc private func favoriteButtonTapped() {
         isFavorite = !isFavorite
-        favoriteButton.tintColor = isFavorite ? .mainColor : .white
+        favoriteButton.tintColor = isFavorite ? .lightBlue : .white
         favoriteButton.setImage(UIImage(systemName: isFavorite ? "heart.fill" : "heart"), for: .normal)
     }
 }

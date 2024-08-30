@@ -10,6 +10,8 @@ import UIKit
 
 class MainPlacesView: UIView {
     
+    let mainPlaces: MainPlacesModel?
+    
     private let favoriteButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "heart"), for: .normal)
@@ -23,6 +25,7 @@ class MainPlacesView: UIView {
     private var isFavorite: Bool = false
     
     init(mainPlaces: MainPlacesModel) {
+        self.mainPlaces = mainPlaces
         super.init(frame: .zero)
         setupView(mainPlaces)
     }
@@ -80,7 +83,7 @@ class MainPlacesView: UIView {
         
         let localizationIcon: UIImageView = {
             let icon = UIImageView()
-            icon.image = UIImage(systemName: "pin")
+            icon.image = UIImage(systemName: "mappin")
             icon.tintColor = .white
             icon.translatesAutoresizingMaskIntoConstraints = false
             return icon
@@ -136,7 +139,7 @@ class MainPlacesView: UIView {
     
     @objc private func favoriteButtonTapped() {
         isFavorite = !isFavorite
-        favoriteButton.tintColor = isFavorite ? .mainColor : .white
+        favoriteButton.tintColor = isFavorite ? .lightBlue : .white
         favoriteButton.setImage(UIImage(systemName: isFavorite ? "heart.fill" : "heart"), for: .normal)
     }
 }

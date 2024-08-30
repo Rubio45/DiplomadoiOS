@@ -176,6 +176,7 @@ class HomeViewController: UIViewController {
     private func setupCategoriesViews() {
         for category in categories {
             let categoryView = TourismCategoryView(category: category)
+            //no se porque esto no me funciona. 
         /*
             categoryView.containerView.backgroundColor = TourismCategory.adventure.rawValue == "adventure" ? .lightBlue : .white
              categoryView.titleLabel.textColor = TourismCategory.adventure == category ? .white : .darkBlue
@@ -217,6 +218,9 @@ class HomeViewController: UIViewController {
             let mainPlaceView = MainPlacesView(mainPlaces: mainPlace)
             mainPlaceView.translatesAutoresizingMaskIntoConstraints = false
             
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(mainPlaceTapped(_:)))
+                    mainPlaceView.addGestureRecognizer(tapGesture)
+            
             mainPlacesContentView.addArrangedSubview(mainPlaceView)
             
             NSLayoutConstraint.activate([
@@ -225,7 +229,15 @@ class HomeViewController: UIViewController {
             ])
         }
     }
-    
+    // MARK: - Actions tapping the places
+    @objc private func mainPlaceTapped(_ sender: UITapGestureRecognizer) {
+        guard let placeView = sender.view as? MainPlacesView,
+              let place = placeView.mainPlaces else { return }
+        
+        let detailVC = DetailViewController(place: place)
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
+
     private func setupRecommendedTrips() {
         
        recommendedTripsSegmentedControl.selectedSegmentIndex = 0
@@ -248,6 +260,8 @@ class HomeViewController: UIViewController {
        recommendedTripsSegmentedControl.backgroundColor = .mainColor?.withAlphaComponent(0.2)
        recommendedTripsSegmentedControl.selectedSegmentTintColor = .mainColor
        recommendedTripsSegmentedControl.tintColor = .white
+        
+        recommendedTripsSegmentedControl.addTarget(self, action: #selector(updateUIOnSegmentChange), for: .valueChanged)
         
         recommendedTripsTitle.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         mainContainer.addSubview(recommendedTripsSegmentedControl)
@@ -276,7 +290,7 @@ class HomeViewController: UIViewController {
         ])
     }
     
-    private func setupRecommendedTripsView() {
+    @objc private func setupRecommendedTripsView() {
         let recommendedTrips = recommendedTrips.filter { $0.modality.rawValue == recommendedTripsSegmentedControl.selectedSegmentIndex }
         for recommendedTrip in recommendedTrips {
             
@@ -290,6 +304,11 @@ class HomeViewController: UIViewController {
                 recommendedTripsView.heightAnchor.constraint(equalTo: recommendedTripsContentView.heightAnchor)
             ])
         }
+    }
+    
+    @objc private func updateUIOnSegmentChange() {
+        recommendedTripsContentView.arrangedSubviews.forEach { $0.removeFromSuperview() }
+        setupRecommendedTripsView()
     }
     
     private func setupCities() {
@@ -330,5 +349,4 @@ class HomeViewController: UIViewController {
             ])
         }
     }
-    
 }
