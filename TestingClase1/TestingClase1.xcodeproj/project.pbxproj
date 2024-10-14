@@ -44,6 +44,7 @@
 				ClassesToTest/Palindromo.swift,
 				ClassesToTest/Power.swift,
 				ClassesToTest/TriangleArea.swift,
+				ClassesToTest/VowelsCounter.swift,
 			);
 			target = 12C528BC2CBDB11B0032648B /* TestingClase1Tests */;
 		};
@@ -62,11 +63,6 @@
 		12C528C02CBDB11B0032648B /* TestingClase1Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TestingClase1Tests;
-			sourceTree = "<group>";
-		};
-		12C528CA2CBDB11B0032648B /* TestingClase1UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestingClase1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,7 +97,6 @@
 			children = (
 				12C528A92CBDB1180032648B /* TestingClase1 */,
 				12C528C02CBDB11B0032648B /* TestingClase1Tests */,
-				12C528CA2CBDB11B0032648B /* TestingClase1UITests */,
 				12C528A82CBDB1180032648B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,9 +171,6 @@
 			);
 			dependencies = (
 				12C528C92CBDB11B0032648B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				12C528CA2CBDB11B0032648B /* TestingClase1UITests */,
 			);
 			name = TestingClase1UITests;
 			packageProductDependencies = (

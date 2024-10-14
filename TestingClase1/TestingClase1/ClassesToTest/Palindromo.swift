@@ -20,15 +20,31 @@ Clase para validar si una cadena de texto es un palíndromo
  a. Anita lava la tina
  b. Roma ni se conoce sin oro, ni se conoce sin amor
  */
-
 final class Palindromo {
-    
+
     static func isPalindrome(string: String) -> Bool {
+        let originalString = Palindromo.removeExtraPunctuation(string: string)
+        let reversedString = String(originalString.reversed())
+        print(reversedString)
+        print("---------------------------------")
+        return originalString == reversedString
+    }
+    
+    static func removeExtraPunctuation(string: String) -> String {
         let lowercasedString = string.lowercased()
-        let stringWithoutSpaces = lowercasedString.replacingOccurrences(of: " ", with: "")
-        var stringWithoutPunctuation = stringWithoutSpaces.replacingOccurrences(of: "[!#`$`%&'()*+,-./:;<=>?@[\\]^_`{|}~]" , with: "")
-        let reversedString = stringWithoutPunctuation.reversed()
-        // expresion regular para sacar todos los signo de puntuacion
-        return lowercasedString == String(reversedString) ? true : false
+        var cleanedString = ""
+
+        for character in lowercasedString {
+            switch character {
+            case "a"..."z", "0"..."9":
+                cleanedString.append(character)
+                break
+            default:
+                break
+            }
+        }
+        print(cleanedString)
+        print("========================================")
+        return cleanedString
     }
 }
